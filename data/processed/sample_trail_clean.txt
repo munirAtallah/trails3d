@@ -1,0 +1,22 @@
+=== sample_trail_clean.laz ===
+Points: 225,020
+format: LAS 1.2
+Fields: X, Y, Z, intensity, return_number, number_of_returns, scan_direction_flag, edge_of_flight_line, classification, synthetic, key_point, withheld, scan_angle_rank, user_data, point_source_id, gps_time
+
+-- Extent --
+X:     -2.04 ..    101.23   (size 103.27 m)
+Y:     -0.71 ..    101.08   (size 101.80 m)
+Z:     -3.32 ..     29.64   (size 32.96 m)
+Footprint 10,513 m²  ·  density 21.4 pts/m²
+
+-- Quality --
+Duplicates: 0 (0.0%)   NaN: 0
+Z 1%..99%: -2.79 .. 23.74  → 4,502 points outside (possible noise)
+
+-- Classes --
+  1 unclassified         82,093 (36.5%)
+  2 ground              142,927 (63.5%)
+
+Intensity: min 200.00  mean 1598.74  max 2999.00
+
+Clusters: 83  (unclustered incl. ground: 145,517)
